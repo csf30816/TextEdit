@@ -10,7 +10,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/ripple.min.js"></script>
     <script>
-        $('button').ripple();
+        $(document).onload = function () {
+            $('button').ripple();
+        }
     </script>
 </head>
 <body>
