@@ -1,0 +1,47 @@
+body {
+	touch-action: manipulation;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fcfcfc;
+}
+
+.nav {
+	background-color: #1e88e5;
+	font-size: 20px;
+	display: flex;
+	padding-right: 2.5px;
+	width: 100%;
+}
+
+.nav .inner {
+	background-color: #1e88e5;
+	padding: 15px;
+	font-size: 20px;
+	display: inline-flex;
+	flex-grow: 1;
+}
+
+.nav button {
+	width: 55px;
+	margin: 5px 2.5px;
+	background-color: #6ab7ff;
+	border: 0;
+	font-size: 16px;
+	font-family: 'Segoe MDL2 Assets';
+	cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.paper {
+	background-color: white;
+	max-width: 800px;
+	margin: 10px;
+	border-radius: 2px;
+	padding: 15px;
+	height: 100%;
+	box-shadow: 0 2px 5px #999;
+	text-align: left;
+}
