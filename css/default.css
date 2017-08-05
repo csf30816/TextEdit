@@ -11,6 +11,8 @@ body {
 	display: flex;
 	padding-right: 2.5px;
 	width: 100%;
+	position: fixed;
+	box-shadow: 0 0 5px #999;
 }
 
 .nav .inner {
