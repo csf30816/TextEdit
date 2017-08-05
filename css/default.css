@@ -11,8 +11,9 @@ body {
 	display: flex;
 	padding-right: 2.5px;
 	width: 100%;
-	position: fixed;
+	position: sticky;
 	box-shadow: 0 0 5px #999;
+	top: 0;
 }
 
 .nav .inner {
@@ -21,6 +22,8 @@ body {
 	font-size: 20px;
 	display: inline-flex;
 	flex-grow: 1;
+	position: relative;
+	box-shadow: none;
 }
 
 .nav button {
